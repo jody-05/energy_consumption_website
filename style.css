@@ -1,0 +1,94 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.page-container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+body{
+    background-color: rgb(255, 239, 198);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 10px;
+    background-color: rgb(191, 191, 150);
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+#icon{
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding-right: 50px;
+}
+
+.navigation{
+    background-color: rgb(138, 113, 78);
+    padding: 15px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: monospace;
+    color: white;
+}
+
+.navigation:hover{
+    background-color: rgb(0, 0, 0);
+}
+
+.content{
+    padding-top: 150px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 150px;
+    flex: 1;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.content p{
+    font-size: 20px;
+    margin-top: 30px;
+    padding-right: 300px;
+    line-height: 40px;
+}
+
+.content ul{
+    padding-left: 50px;
+}
+
+.unorderedlist{
+    padding-left: 30px;
+    list-style: disc;
+    font-size: 30px;
+    margin-top: 30px;
+    line-height: 20px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: rgb(191, 191, 150);
+    font-size: 20px;
+    font-family: monospace;
+}
